@@ -1,5 +1,5 @@
 const getMiddle = (string) => {
-  if (string.length === 1 || string.length === 2) {
+  if (string.length === 1 ) {
     return string
   } else if (string.length % 2 === 0) {
     return `${string[(string.length / 2 ) - 1]}${string[(string.length / 2)]}`
@@ -9,4 +9,3 @@ const getMiddle = (string) => {
 }
 
 module.exports = getMiddle;
-
