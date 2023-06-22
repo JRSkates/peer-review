@@ -46,18 +46,32 @@ Were there lots of stage jumps?
 
 3. Record other feedback you notice
 Set up environment well, defined empty function according to acceptability criteria in order to set up Jest tests, readme with requirements was a great shout.
+
 Corrected Jest syntax quickly
+
 Identified simplest case to test drive, which I thought was great
 But then moved on to ‘even string length’, which was maybe a bit contradictory?
+
 Quickly searched for documentation on isEven(), and I liked that you chose to leave it
+
 Was there a refactoring opportunity once ‘even string length’ was implemented?
+
 Skipped TDD at one point, but spotted quickly
+
 Maybe could have called your shots more?
+
 Good switch to debugging conditional when appropriate
+
 Could have debugged in REPL when confused about undefined return
+
 Good explanation of your understanding when you realised what the issue was
+
 As part of your debugging abstracted into `middle`, which you could have used as refactoring tool
+
 Cool thing with REPL start! I’m not sure it was worth prioritising over refactoring, however. I was satisfied that it would have run as intended when imported to node. Also, being picky, was “the program launches the REPL itself” part of the requirements?
+
 You did then move away from this solution, which I thought was good judgement
+
 Yeah, there was a significant refactoring opportunity that you missed out on until the very end. Refactoring after each pass is better practice.
+
 Good to see you commit (I didn’t do this!). You could have committed more frequently, after each successful testdriving loop
